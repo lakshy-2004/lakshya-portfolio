@@ -5,15 +5,21 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
+        imgSrc: '/images/watchlist.png',
+        title: 'Movie Watchlist',
+        tags: ['Vite','MERN Stack','REST API','API Integration','CRUD Operations','Authentication','Tailwind Css'],
+        projectLink: 'https://movies-watchlist-eight.vercel.app/'
+    },
+    {
         imgSrc: '/images/check.png',
         title: 'Todo List',
-        tags: ['Bootstrap','Authentication','MERN Stack',],
+        tags: ['MERN Stack','Authentication','CRUD Operations','REST API','Bootstrap',],
         projectLink: 'https://todo-eta-red-68.vercel.app/'
     },
     {
       imgSrc: '/images/portfolio-project.png',
       title: 'Portfolio',
-      tags: ['Tailwind Css', 'React'],
+      tags: ['Vite','React','JavaScript','Tailwind Css','Responsive Design',],
       projectLink: '/'
     },
     {
