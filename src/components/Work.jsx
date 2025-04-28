@@ -5,10 +5,16 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
+        imgSrc: '/images/text-to-image.png',
+        title: 'Text-to-Image',
+        tags: ['Vite', 'MERN Stack', 'REST API', 'AI Model Integration', 'CRUD Operations', 'Tailwind CSS', 'Cloud Storage','Cloudinary'],
+        projectLink: 'https://text-to-image-smoky.vercel.app/'
+    },
+    {
         imgSrc: '/images/watchlist.png',
         title: 'Movie Watchlist',
         tags: ['Vite','MERN Stack','REST API','API Integration','CRUD Operations','Authentication','Tailwind Css'],
-        projectLink: 'https://movies-watchlist-eight.vercel.app/'
+        projectLink: 'https://movie-watchlist-gamma-nine.vercel.app/'
     },
     {
         imgSrc: '/images/check.png',
